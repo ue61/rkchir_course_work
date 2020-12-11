@@ -1,0 +1,121 @@
+
+#header {
+  color: #fff;
+  background: #290101;  
+  border-radius: 10px;
+  text-align: center;
+}
+
+#header h2{
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+padding:20px;
+}
+h1{
+  padding-top: 10px;
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+}
+p{
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+}
+a{
+ font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw; 
+}
+::selection {
+    background: #cf4a91;
+}
+
+
+#content .blck {
+padding-left: 10px;
+padding-bottom: 80px;
+padding-right: 10px;
+transition: 1s;
+text-indent: 11px;
+color:#FFF;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+background-image: url(blck.jpg);
+background-position: center top;      
+background-repeat: no-repeat;      
+background-attachment: fixed;      
+background-size: cover;  
+border-radius: 10px;
+}
+#content .blck:hover{
+  transform: scale(1.01);
+}
+
+#navigation ul {
+  margin: 0;
+  padding: 10px;
+  color: #333;
+  background:#0f0000;    
+  border-radius: 10px;
+}
+
+#navigation li {
+  display:inline-block;
+}
+#navigation a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: #fff;
+}
+#navigation a:hover {
+  background: #8b28ed
+}
+.body_hide {
+  background:#c9c1c1;
+  font-size:1em;
+  opacity: 0;
+  transition: .9s opacity ease-in-out;
+}
+.body_visible{
+  opacity: 1;
+}
+#content .blck a{
+    display: block;
+    float: left;
+    background-color: #6b0000;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 7px 15px;
+}
+
+#content .blck a:hover {
+    background-color: #000000;
+}
+#footer { 
+color: #fff;
+background: #290101;  
+border-radius: 10px;
+text-align: center;
+}
+#footer h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+padding: 20px ;
+}
+
+

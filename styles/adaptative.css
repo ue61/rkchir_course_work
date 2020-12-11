@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-regular.eot'); 
+  src: local(''),
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-regular.woff2') format('woff2'),
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-regular.woff') format('woff'), 
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-regular.ttf') format('truetype'),
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-regular.svg#YanoneKaffeesatz') format('svg');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-700.eot');
+  src: local(''),
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-700.woff2') format('woff2'),
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-700.woff') format('woff'), 
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-700.ttf') format('truetype'), 
+       url('../fonts/yanone-kaffeesatz-v15-latin_cyrillic-700.svg#YanoneKaffeesatz') format('svg'); 
+}
+body{
+	width: 1280px;
+	margin:auto;
+}
+#header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#footer {
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#content{
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+}
+@media only screen and (min-width : 280px) and (max-width : 480px) {
+body{
+	width:90%;
+	margin:0 auto;
+	}
+	#content {
+    width: 100%;
+    }
+}
+@media (max-width: 575px) { 
+body{
+	width:90%;
+	margin:0 auto;
+	}
+	#content {
+    width: 100%;
+    } 
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+body{
+	width:90%;
+	margin:0 auto;
+	}
+	#content {
+    width: 100%;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+body{
+	width:90%;
+	margin:0 auto;
+	}
+	#content {
+    width: 100%;
+    } 
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+	body{
+	width:90%;
+	margin:0 auto;
+	}
+	#content {
+    width: 100%;
+    } 
+}
+
+@media (min-width: 1200px) { 
+body{
+	width:90%;
+	margin:0 auto;
+	}
+	#content {
+    width: 100%;
+    }
+}
